@@ -86,11 +86,10 @@ html {
 }
 
 .header{
-    /* position: relative; */
     height: 700px;
     width: 100%;
     margin-bottom: 80px;
-    background: linear-gradient(355deg,rgba(255, 255, 255, 1) 45%,rgba(27, 225, 175, 1) 46%);
+    background: linear-gradient(357deg,rgba(255, 255, 255, 1) 45%,rgba(27, 225, 175, 1) 46%);
 }
 
 .navbar{
@@ -161,7 +160,6 @@ html {
     height: 48px;
     border-radius: 30px;
     border: 1px solid #fff;
-    justify-content: space-evenly;
     align-items: center;
     font-size: initial;
     font-weight: 500;
@@ -173,33 +171,27 @@ html {
     font-size: 18px;
     font-weight: 600;
     line-height: 32px;
+    padding-left: 16px;
 }
 
 .login-img {
     image-rendering: pixelated;
+    padding-left: 22px;
 }
 
-.login-btn:hover {
-    cursor: pointer;
-    color: #ccc;
-}
-
-img.subnav1-img {
-    width: 200%;
-    margin-top: -20px;
-}
-
-img.subnav2-img {
-    
+img.header__subnav-img {
+    width: 208%;
+    margin-top: -34px;
+    margin-left: -24px;
 }
 
 .subnav{
     max-width: 100%;
-    margin-top: 88px;
+    margin-top: 74px;
 }
 
 .subnav-content{
-    padding-left: 110px;
+    padding-left: 120px;
     float: left;
 }
 
@@ -207,25 +199,36 @@ img.subnav2-img {
     font-size: 60px;
     font-weight: 700;
     color: #fff;
-    line-height: 75px;
-    letter-spacing: -2.25px;
-    
+    line-height: 70px;
 }
 
 .subnav-detail {
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
-    letter-spacing: -1.5px;
     margin-top: 110px;
     margin-bottom: 25px;
 }
 
 .col-6{
-    float: left;
-    width: 50%;
-    font-size: 18px;
-    border-color: #fff;
+    width: 280px;
+    height: 64px;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url(/assets/images/Messages/mail.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    border-radius: 10px;
+}
+
+.subscribe-btn{
+    width: 139px;
+    height: 64px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(124, 77, 255, 1);
+    color: var(--white-color);
 }
 
 .content{
@@ -236,10 +239,9 @@ img.subnav2-img {
     height: 800px;
 }
 
-.form-container {
-    width: 30%;
+.form-content {
+    width: 32%;
     display: grid;
-    margin-left: 134px;
     border: 1px solid rgba(255, 255, 255, 1);
     box-shadow: 4px 4px 4px 6px rgb(216 216 216);
 }
@@ -260,7 +262,7 @@ p.form-detail {
     margin-bottom: 14px;
 }
 
-input[type="email"],
+/* input[type="email"],
 input[type="name"] {
     margin-left: 16px;
     margin-right: 16px;
@@ -271,7 +273,7 @@ input[type="name"] {
 
 input[type="email"]{
     margin-bottom: 37px;
-}
+} */
 
 .form-check{
     align-items: center;
@@ -285,7 +287,7 @@ label{
     letter-spacing: 0.25px;
 }
 
-.getstar-btn {
+.form-btn {
     font-size: 18px;
     line-height: 32px;
     margin-top: 16px;
@@ -302,7 +304,6 @@ label{
 
 .getstar {
     width: 70%;
-    margin-right: 134px;
     margin-left: 50px;
 }
 
