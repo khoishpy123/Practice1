@@ -11,7 +11,7 @@
 }
 
 html {
-    font-family: 'Poppins Medium';
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -81,11 +81,6 @@ html {
     margin-right: 23px;
 }
 
-/* .container{
-    max-width: 1440px;
-    margin: 0 auto;
-} */
-
 #wrapper{
     max-width: 1440px;
     margin: 0 auto;
@@ -145,8 +140,6 @@ html {
 .header-icon {
     font-size: 20px;
     margin-right: 15px;
-    /* width: 50px;
-    height: 50px; */
 }
 
 .header__navbar-item-link{
@@ -250,7 +243,7 @@ img.header__subnav-img {
 }
 
 .form-content {
-    width: 32%;
+    width: 350px;
     display: grid;
     border: 1px solid rgba(255, 255, 255, 1);
     box-shadow: 4px 4px 4px 6px rgb(216 216 216);
@@ -262,18 +255,54 @@ span.form-title {
     line-height: 36px;
     text-align: left;
     font-weight: 600;
+    margin-top: -17px;
+    letter-spacing: -0.5px;
 }
 
 p.form-detail {
     font-size: 14px;
     line-height: 24px;
     color: #000;
-    text-align: justify;
-    margin-bottom: 14px;
+    text-align: initial;
+    margin-top: -4px;
+    letter-spacing: 0.25px;
+}
+
+.form-input{
+    display: grid;
+    margin-top: 2px;
+}
+
+.form-name{
+    background-image: url(/assets/images/user1.png);
+    background-repeat: no-repeat;
+    background-position: 274px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(173 173 173 / 60%);
+    border-radius: 5px;
+    padding: 3px 16px;
+    letter-spacing: -0.25px;
+}
+
+.form-email{
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/at-sign.png);
+    background-position: 274px;
+    border: 1px solid rgb(173 173 173 / 60%);
+    border-radius: 5px;
+    padding: 3px 16px;
+    letter-spacing: -0.25px;
 }
 
 .form-check{
     align-items: center;
+    margin-top: 55px;
+    margin-left: 24px;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
 }
 
 label{
@@ -285,22 +314,22 @@ label{
 }
 
 .form-btn {
-    font-size: 18px;
-    line-height: 32px;
     margin-top: 16px;
     margin-bottom: 16px;
     background: rgba(124, 77, 255, 1);
     color: #fff;
     border: 1px solid rgba(124, 77, 255, 1);
     border-radius: 5px;
+    letter-spacing: -0.25px;
+    padding: 5px;
 }
 
 .ti-arrow-right{
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 .getstar {
-    width: 70%;
+    width: 770px;
     margin-left: 50px;
 }
 
@@ -309,6 +338,7 @@ label{
     line-height: 75px;
     margin-bottom: 8px;
     text-align: left;
+    letter-spacing: -2.25px;
     margin-top: -25px;
 }
 
@@ -328,9 +358,10 @@ label{
 }
 
 p.detail-thumb {
-    text-align: justify;
+    text-align: initial;
     font-size: 18px;
     line-height: 32px;
+    letter-spacing: -0.25px;
     color: rgba(92, 92, 92, 1);
 }
 
@@ -339,6 +370,7 @@ p.getstar-subtitle {
     line-height: 48px;
     color: rgba(133, 133, 133, 1);
     text-align: left;
+    letter-spacing: -1.25px;
 }
 
 .preview-section{
@@ -410,27 +442,26 @@ p.getstar-subtitle {
     margin-bottom: 80px;
 }
 
-.card:hover{
-    cursor: pointer;
+/* .card:hover{
     background-color: rgba(124, 77, 255, 1);
     color: rgba(27, 225, 175, 1);
-}
+} */
 
 p.card-level {
-    margin-top: 20px;
+    margin-top: 24px;
     margin-bottom: 8px;
-    font-size: 32px;
-    line-height: 48px;
 }
 
 .card-level:hover{
     color: rgba(27, 225, 175, 1);
+    cursor: pointer;
 }
 
 p.card-price {
     font-size: 32px;
     line-height: 48px;
     margin-bottom: 8px;
+    font-weight: 500;
 }
 
 p.card-time {
@@ -438,28 +469,30 @@ p.card-time {
     line-height: 14px;
     margin-bottom: 8px;
     font-weight: 600;
-    opacity: 0.6;
+    opacity: 0.8;
+    letter-spacing: 2.5px;
 }
 
 p.card-price-save {
     font-size: 18px;
     line-height: 38px;
     font-weight: 600;
-    opacity: 0.6;
+    opacity: 0.8;
+    color: rgba(27, 225, 175, 1);
 }
 
 p.card-detail {
     font-size: 14px;
     line-height: 24px;
-    margin-bottom: 26px;
+    margin-bottom: 16px;
 }
 
 button.card-btn {
-    font-size: 18px;
-    line-height: 32px;
-    height: 40px;
-    width: 70%;
+    width: 80%;
     margin-bottom: 24px;
+    text-align: center;
+    padding: 10px 12px;
+    cursor: pointer;
 }
 
 .footer{
@@ -498,11 +531,15 @@ button.card-btn {
 .col-7{
     width: 329px;
     height: 64px;
-    text-align: center;
     border: 1px solid #fff;
     background-color: rgba(255, 255, 255, 1);
-    background-image: url(/assets/images/Messages/mail.png);
-    background-repeat: no-repeat;
-    background-position: 0px;
     border-radius: 5px;
+}
+
+.contanct-address{
+    color: rgba(124, 77, 255, 1);
+}
+
+.contact-more-detail{
+    margin-top: 16px;
 }
