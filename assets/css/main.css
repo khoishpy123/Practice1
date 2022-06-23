@@ -330,6 +330,7 @@ span.form-title {
 input[type="checkbox"] {
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 
 label{
@@ -561,7 +562,6 @@ button.card-btn {
 .footer{
     height: 450px;
     width: 100%;
-    /* background-image: url(/assets/images/Backgrounds/Angled3.png); */
     background: linear-gradient(178deg,rgba(245, 241, 255, 1) 10%,rgba(27, 225, 175, 1) 11%);
 }
 
