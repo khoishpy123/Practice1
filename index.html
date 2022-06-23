@@ -8,8 +8,6 @@
     <title>Landing page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="/assets/images/boxcube.png">
-    <link rel="stylesheet" href="/assets/font/fontawesome-free-6.1.1/css/all.min.css">
     <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,24 +25,24 @@
                 </div>
                 <ul class="header__navbar-list flex">
                     <li class="header__navbar-item">
-                        <img src="./assets/images/Popular/home.png" class="header-icon"></img>
-                        <a href="" class="header__navbar-item-link1 font-18">Home</a>
+                        <img src="./assets/images/Popular/home.png" class="header-icon-home"></img>
+                        <a href="" class="header__navbar-item-link font-18">Home</a>
                     </li>
                     <li class="header__navbar-item">
                         <img src="./assets/images/Popular/inbox.png" alt="" class="header-icon">
-                        <a href="" class="header__navbar-item-link">About</a>
+                        <a href="" class="header__navbar-item-link font-18">About</a>
                     </li>
                     <li class="header__navbar-item">
-                        <img src="./assets/images/Commerce/briefcase.png" alt="">
-                        <a href="" class="header__navbar-item-link">Works</a>
+                        <img src="./assets/images/Commerce/briefcase.png" alt="" class="header-icon">
+                        <a href="" class="header__navbar-item-link font-18">Works</a>
                     </li>
                     <li class="header__navbar-item">
-                        <img src="./assets/images/Messages/mail.png" alt="">
-                        <a href="" class="header__navbar-item-link">Contacts</a>
+                        <img src="./assets/images/Messages/mail.png" alt="" class="header-icon">
+                        <a href="" class="header__navbar-item-link font-18">Contacts</a>
                     </li>
                 </ul>
                 <button class="login-btn">
-                    <p class="name-btn">Login</p>
+                    <p class="name-btn font-18">Login</p>
                     <img src="./assets/images/user.png" alt="" class="login-img">
                 </button>
             </nav>
@@ -122,8 +120,8 @@
                 <div class="preview-content flex-center m-135">
                     <p class="preview-title">Preview our useful app</p>
                     <div class="desktop-img">
-                        <img src="./assets/images/Appstore.png" alt="" class="ap1-img">
-                        <img src="./assets/images/Webapp.png" alt="" class="ap-img">
+                        <img src="./assets/images/Appstore.png" alt="" class="apple-app">
+                        <img src="./assets/images/Webapp.png" alt="" class="web-app">
                     </div>
                 </div>
                 <p class="preview-sub-title m-135">It’s better to paste your original design items into <br> the
@@ -137,8 +135,8 @@
                     <h4 class="plan-sub-heading ">Keep in mind you can also recolor parent price card to increase impact
                     </h4>
                     <div class="cards-section ">
-                        <div class="card">
-                            <p class="card-level m-23 font-32">Starter</p>
+                        <div class="plan-card">
+                            <h3 class="card-level m-23 font-32">Starter</h3>
                             <p class="card-price m-23">Free</p>
                             <p class="card-time m-23">FOREVER</p>
                             <p class="card-price-save m-23">Up to 30.000 MAU</p>
@@ -146,8 +144,8 @@
                                 Feather icons pack</p>
                             <button class="card-btn font-18">Get started!</button>
                         </div>
-                        <div class="card">
-                            <p class="card-level m-23 font-32">Genius</p>
+                        <div class="plan-card">
+                            <h3 class="card-level m-23 font-32">Genius</h3>
                             <p class="card-price m-23">$12.99</p>
                             <p class="card-time m-23">PER MONTH</p>
                             <p class="card-price-save m-23">Up to 50.000 MAU</p>
@@ -155,8 +153,8 @@
                                 Feather icons pack</p>
                             <button class="card-btn font-18">Get started!</button>
                         </div>
-                        <div class="card">
-                            <p class="card-level m-23 font-32">Medium</p>
+                        <div class="plan-card">
+                            <h3 class="card-level m-23 font-32">Medium</h3>
                             <p class="card-price m-23">$24</p>
                             <p class="card-time m-23">PER MONTH</p>
                             <p class="card-price-save m-23">Up to 200K MAU</p>
@@ -164,8 +162,8 @@
                                 Feather icons pack</p>
                             <button class="card-btn font-18">Get started!</button>
                         </div>
-                        <div class="card">
-                            <p class="card-level m-23 font-32">Guru</p>
+                        <div class="plan-card">
+                            <h3 class="card-level m-23 font-32">Guru</h3>
                             <p class="card-price m-23">$56</p>
                             <p class="card-time m-23">PER MONTH</p>
                             <p class="card-price-save m-23">More than 1M</p>
@@ -181,28 +179,42 @@
             <div class="m-135 flex">
                 <div class="contact-info w-50">
                     <p class="contact-title font-12">FOLLOW US</p>
-                    <div class="social-img">
-                        <img src="./assets/images/Frame.png" alt="">
+                    <div class="social-section">
+                        <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                            <img src="./assets/images/Social/facebook.png" alt="" class="social-button">
+                        </a>
+
+                        <a href="https://www.linkedin.com/feed/" target="_blank" class="social-link">
+                            <img src="./assets/images/Social/linkedin.png" alt="" class="social-button">
+                        </a>
+
+                        <a href="https://slack.com/" target="_blank" class="social-link">
+                            <img src="./assets/images/Social/slack.png" alt="" class="social-button">
+                        </a>
+
+                        <a href="https://twitter.com/?lang=vi" target="_blank" class="social-link">
+                            <img src="./assets/images/Social/twitter.png" alt="" class="social-button">
+                        </a>
                     </div>
                     <p class="font-12">INFORMATION</p>
                     <div class="about-us">
-                        <p class="font-14">About Fapster app</p>
-                        <p class="font-14">Shipping / Returns</p>
-                        <p class="font-14">We are hiring!</p>
-                        <p class="font-14">Get in Touch</p>
-                        <p class="font-14">Privacy Policy</p>
-                        <p class="font-14">Resources</p>
-                        <p class="font-14">Things We Like</p>
-                        <p class="font-14">Terms of Service</p>
+                        <a class="about-us-link font-14">About Fapster app</a>
+                        <a class="about-us-link font-14">Shipping / Returns</a>
+                        <a class="about-us-link font-14">We are hiring!</a>
+                        <a class="about-us-link font-14">Get in Touch</a>
+                        <a class="about-us-link font-14">Privacy Policy</a>
+                        <a class="about-us-link font-14">Resources</a>
+                        <a class="about-us-link font-14">Things We Like</a>
+                        <a class="about-us-link font-14">Terms of Service</a>
                     </div>
                 </div>
                 <div class="contact-form">
                     <p class="contact-title font-12">DROP US A LINE</p>
-                    <p class="contanct-address font-32">hello@fapsterapp.com</p>
+                    <a href="" class="contanct-address font-32">hello@fapsterapp.com</a>
                     <p class="contanct-sub-title font-12">KEEP IN TOUCH</p>
                     <form class="form-subscribe flex">
                         <input type="email" placeholder="Email Address" required id="" class="col-7 font-18">
-                        <button class="subscribe-btn font-18">
+                        <button class="contact-subscribe-btn font-18">
                             Subscribe
                         </button>
                     </form>

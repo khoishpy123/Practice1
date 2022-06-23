@@ -132,14 +132,23 @@ html {
 
 .header__navbar-item{
     display: inline-flex;
-    margin: 0 20px;
+    margin: 4px 20px;
     justify-content: center;
     align-items: center;
 }
 
-.header-icon {
+.header-icon-home {
     font-size: 20px;
-    margin-right: 15px;
+    margin-right: 10px;
+    filter: brightness(0.4);
+}
+
+.header__navbar-item:hover >.header-icon-home {
+    filter: none;
+}
+
+.header-icon {
+    margin-right: 10px;
 }
 
 .header__navbar-item-link{
@@ -147,10 +156,16 @@ html {
     text-decoration: none;
 }
 
-.header__navbar-item-link1{
+.header__navbar-item:hover {
+    cursor: pointer;
+}
+
+.header__navbar-item:hover > .header__navbar-item-link{
     color: var(--white-color);
-    text-decoration: none;
-    font-weight: 600;
+}
+
+.header__navbar-item:hover > .header-icon{
+    filter: brightness(0) invert(1);
 }
 
 .login-btn{
@@ -165,12 +180,15 @@ html {
     font-weight: 500;
     background-color: #fff;
     box-shadow: 0px 0px 6px rgb(0 0 0 / 33%);
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    opacity: 0.6;
 }
 
 .name-btn {
-    font-size: 18px;
     font-weight: 600;
-    line-height: 32px;
     padding-left: 16px;
 }
 
@@ -216,10 +234,14 @@ img.header__subnav-img {
     text-align: center;
     border: 1px solid #fff;
     background-color: rgba(255, 255, 255, 1);
-    background-image: url(/assets/images/Messages/mail.png);
+    background-image: url(/assets/images/Messages/mail-form.png);
     background-repeat: no-repeat;
-    background-position: 0px;
+    background-position: 5px;
     border-radius: 5px;
+}
+
+.col-6::placeholder {
+    color: #7C4DFF;
 }
 
 .subscribe-btn{
@@ -229,6 +251,11 @@ img.header__subnav-img {
     border-radius: 10px;
     background-color: rgba(124, 77, 255, 1);
     color: var(--white-color);
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    opacity: 0.6;
 }
 
 .content{
@@ -259,7 +286,7 @@ span.form-title {
     letter-spacing: -0.5px;
 }
 
-p.form-detail {
+.form-detail {
     font-size: 14px;
     line-height: 24px;
     color: #000;
@@ -322,6 +349,11 @@ label{
     border-radius: 5px;
     letter-spacing: -0.25px;
     padding: 5px;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    opacity: 0.3;
 }
 
 .ti-arrow-right{
@@ -339,14 +371,14 @@ label{
     margin-bottom: 8px;
     text-align: left;
     letter-spacing: -2.25px;
-    margin-top: -25px;
+    margin-top: -17px;
 }
 
 .getstar-information{
     margin-top: 55px;
     display: grid;
     grid-template-columns: auto auto;
-    gap: 32px 50px;
+    gap: 35px 45px ;
 }
 
 .detail-title {
@@ -357,7 +389,7 @@ label{
     margin-bottom: 16px;
 }
 
-p.detail-thumb {
+.detail-thumb {
     text-align: initial;
     font-size: 18px;
     line-height: 32px;
@@ -365,7 +397,7 @@ p.detail-thumb {
     color: rgba(92, 92, 92, 1);
 }
 
-p.getstar-subtitle {
+.getstar-subtitle {
     font-size: 32px;
     line-height: 48px;
     color: rgba(133, 133, 133, 1);
@@ -401,8 +433,18 @@ p.getstar-subtitle {
     margin-bottom: 40px;
 }
 
-.ap1-img{
+.apple-app {
     margin-right: 20px;
+    cursor: pointer;
+}
+
+.web-app {
+    cursor: pointer;
+}
+
+.apple-app:hover ,
+.web-app:hover {
+    opacity: 0.6;
 }
 
 .plan-section{
@@ -436,35 +478,51 @@ p.getstar-subtitle {
     gap: 30px;
 }
 
-.card{
-    border: 1px solid rgba(194, 194, 194, 1);
+.plan-card{
+    border: 1px solid #ADADAD;
     border-radius: 16px;
     margin-bottom: 80px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 
-/* .card:hover{
-    background-color: rgba(124, 77, 255, 1);
-    color: rgba(27, 225, 175, 1);
-} */
+.plan-card:hover{
+    background-color: #7C4DFF;
+}
 
-p.card-level {
+.plan-card:hover > .card-level{
+    color: #1BE1AF;
+}
+
+.plan-card:hover > .card-price, 
+.plan-card:hover > .card-detail,
+.plan-card:hover > .card-time {
+    color: var(--white-color);
+}
+
+.plan-card:hover> .card-btn{
+    color: #333333;
+    background-color: var(--white-color);
+}
+
+.card-level {
     margin-top: 24px;
     margin-bottom: 8px;
+    font-weight: 500;
 }
 
 .card-level:hover{
     color: rgba(27, 225, 175, 1);
-    cursor: pointer;
 }
 
-p.card-price {
+.card-price {
     font-size: 32px;
     line-height: 48px;
     margin-bottom: 8px;
     font-weight: 500;
 }
 
-p.card-time {
+.card-time {
     font-size: 12px;
     line-height: 14px;
     margin-bottom: 8px;
@@ -473,25 +531,30 @@ p.card-time {
     letter-spacing: 2.5px;
 }
 
-p.card-price-save {
+.card-price-save {
     font-size: 18px;
     line-height: 38px;
     font-weight: 600;
     opacity: 0.8;
+    margin-bottom: 8px;
     color: rgba(27, 225, 175, 1);
 }
 
-p.card-detail {
+.card-detail {
     font-size: 14px;
     line-height: 24px;
-    margin-bottom: 16px;
+    margin-bottom: 40px;
 }
 
 button.card-btn {
-    width: 80%;
+    width: 83%;
     margin-bottom: 24px;
     text-align: center;
-    padding: 10px 12px;
+    padding: 10px 0px;
+    color: var(--white-color);
+    background-color: #858585;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -510,9 +573,23 @@ button.card-btn {
     padding-top: 120px;
 }
 
-.social-img{
-    margin-top: 8px;
+.social-section{
+    margin-top: 10px;
     margin-bottom: 36px;
+}
+
+.social-link{
+    text-decoration: none;
+}
+
+.social-button{
+    background-color: var(--white-color);
+    border-radius: 20px;
+    margin-right: 37px;
+}
+
+.social-button:hover {
+    opacity: 0.6;
 }
 
 .about-us{
@@ -529,11 +606,12 @@ button.card-btn {
 }
 
 .col-7{
-    width: 329px;
+    width: 415px;
     height: 64px;
-    border: 1px solid #fff;
+    border: none;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 5px;
+    padding-left: 16px;
 }
 
 .contanct-address{
@@ -542,4 +620,27 @@ button.card-btn {
 
 .contact-more-detail{
     margin-top: 16px;
+}
+
+.contact-subscribe-btn{
+    width: 170px;
+    margin-left: -5px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(51, 51, 51, 1);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.contact-subscribe-btn:hover {
+    background-color: #7C4DFF;
+    color: var(--black-color);
+}
+
+.about-us-link {
+    cursor: pointer;
+}
+
+.about-us-link:hover {
+    opacity: 0.6;
 }
