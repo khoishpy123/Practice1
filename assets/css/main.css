@@ -351,14 +351,15 @@ label{
     letter-spacing: -0.25px;
     padding: 5px;
     cursor: pointer;
+    background-image: url(/assets/images/arrow\ right.png);
+    background-repeat: no-repeat;
+    background-position: 250px;
+    font-weight: 600;
 }
 
 .form-btn:hover {
     opacity: 0.3;
-}
-
-.ti-arrow-right{
-    margin-left: 25px;
+    color: var(--black-color);
 }
 
 .getstar {
@@ -643,7 +644,8 @@ label{
 }
 
 .about-us-link {
-    cursor: pointer;
+    color: #333333;
+    text-decoration: none;
 }
 
 .about-us-link:hover {
