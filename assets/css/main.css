@@ -20,7 +20,7 @@ html {
     line-height: 14px;
     font-weight: 600;
     letter-spacing: 2.5px;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .font-14{
@@ -373,6 +373,7 @@ label{
     text-align: left;
     letter-spacing: -2.25px;
     margin-top: -17px;
+    font-weight: 600;
 }
 
 .getstar-information{
@@ -388,6 +389,7 @@ label{
     font-weight: 600;
     text-align: left;
     margin-bottom: 16px;
+    letter-spacing: -0.5px;
 }
 
 .detail-thumb {
@@ -404,6 +406,7 @@ label{
     color: rgba(133, 133, 133, 1);
     text-align: left;
     letter-spacing: -1.25px;
+    font-weight: 400;
 }
 
 .preview-section{
@@ -432,6 +435,7 @@ label{
     text-align: left;
     margin-top: 10px;
     margin-bottom: 40px;
+    font-weight: 500;
 }
 
 .apple-app {
@@ -504,6 +508,7 @@ label{
 .plan-card:hover> .card-btn{
     color: #333333;
     background-color: var(--white-color);
+    font-weight: 600;
 }
 
 .card-level {
@@ -526,7 +531,7 @@ label{
 .card-time {
     font-size: 12px;
     line-height: 14px;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     font-weight: 600;
     opacity: 0.8;
     letter-spacing: 2.5px;
@@ -547,7 +552,7 @@ label{
     margin-bottom: 40px;
 }
 
-button.card-btn {
+.card-btn {
     width: 83%;
     margin-bottom: 24px;
     text-align: center;
