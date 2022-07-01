@@ -11,7 +11,7 @@
 }
 
 html {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Objectivity', sans-serif;
     box-sizing: border-box;
 }
 
@@ -81,7 +81,7 @@ html {
     margin-right: 23px;
 }
 
-#wrapper{
+.wrapper{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -91,16 +91,17 @@ html {
     width: 100%;
     background-image: url(/assets/images/Backgrounds/Angled1.png);
     background-repeat: no-repeat;
-    /* background: linear-gradient(357deg,rgba(255, 255, 255, 1) 45%,rgba(27, 225, 175, 1) 46%); */
+    position: relative;
 }
 
-.header__navbar{
+.header-navbar{
     display: flex;
     align-items: center;
     padding-top: 20px;
+    position: absolute;
 }
 
-.header__navbar-icon{
+.header-navbar-icon{
     display: flex;
     width: 50px;
     height: 50px;
@@ -111,7 +112,7 @@ html {
     margin-left: 61px;
 }
 
-.header__navbar-img{
+.header-navbar-img{
     width: 100%;
 }
 
@@ -119,17 +120,18 @@ html {
     font-size: 30px;
 }
 
-.header__navbar-list{
+.header-navbar-list{
     list-style: none;
     margin-left: 175px;
     margin-right: 189px;
 }
 
-.header__navbar-item{
+.header-navbar-item{
     display: inline-flex;
     margin: 4px 20px;
     justify-content: center;
     align-items: center;
+    opacity: 0.5;
 }
 
 .header-icon-home {
@@ -138,7 +140,7 @@ html {
     filter: brightness(0.4);
 }
 
-.header__navbar-item:hover >.header-icon-home {
+.header-navbar-item:hover >.header-icon-home {
     filter: none;
 }
 
@@ -146,21 +148,23 @@ html {
     margin-right: 10px;
 }
 
-.header__navbar-item-link{
+.header-navbar-item-link{
     color:#858585;
     text-decoration: none;
 }
 
-.header__navbar-item:hover {
+.header-navbar-item:hover {
     cursor: pointer;
+    opacity: 1;
+    font-weight: 600;
 }
 
-.header__navbar-item:hover > .header__navbar-item-link{
+.header-navbar-item:hover > .header-navbar-item-link{
     color: var(--white-color);
 }
 
-.header__navbar-item:hover > .header-icon{
-    filter: brightness(0) invert(1);
+.header-navbar-item:hover > .header-icon {
+    filter: brightness(0) invert(1) opacity(1);
 }
 
 .login-btn{
@@ -171,12 +175,11 @@ html {
     border-radius: 30px;
     border: 1px solid #fff;
     align-items: center;
-    font-size: initial;
-    font-weight: 500;
+    font-size: 18px;
     background-color: #fff;
-    box-shadow: 0px 0px 6px rgb(0 0 0 / 33%);
+    filter: drop-shadow(0px 2px 4px rgba(55, 71, 79, 0.16)) drop-shadow(0px 4px 8px rgba(55, 71, 79, 0.08));
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 700;
     padding-left: 16px;
 }
 
@@ -189,35 +192,42 @@ html {
     padding-left: 22px;
 }
 
-img.header__subnav-img {
-    width: 208%;
+img.header-banner-img {
     margin-top: -34px;
     margin-left: -24px;
 }
 
-.subnav{
-    max-width: 100%;
-    margin-top: 74px;
+.banner-section{
+    padding-top: 74px;
+    position: absolute;
+    top: 74px;
+    max-width: 1440px;
+    padding-left: 135px;
+    padding-right: 135px;
 }
 
-.subnav-content{
-    padding-left: 120px;
-    float: left;
+.banner-content{
+    text-align: left;
+    padding-left: 110px;
 }
 
-.subnav-title {
+.banner-title {
     font-size: 60px;
     font-weight: 700;
     color: #fff;
     line-height: 70px;
 }
 
-.subnav-detail {
+.banner-detail {
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     margin-top: 110px;
     margin-bottom: 25px;
+}
+
+form.form-subscribe {
+    filter: drop-shadow(0px 8px 24px rgba(55, 71, 79, 0.1)) drop-shadow(0px 16px 32px rgba(55, 71, 79, 0.08));
 }
 
 .col-6{
@@ -265,7 +275,8 @@ img.header__subnav-img {
     width: 350px;
     display: grid;
     border: 1px solid rgba(255, 255, 255, 1);
-    box-shadow: 4px 4px 4px 6px rgb(216 216 216);
+    filter: drop-shadow(0px 12px 12px rgba(28, 65, 84, 0.1)) drop-shadow(0px 24px 24px rgba(28, 65, 84, 0.08)) drop-shadow(0px 64px 48px rgba(28, 65, 84, 0.08)) drop-shadow(0px 64px 64px rgba(28, 65, 84, 0.04));
+    background-color: #fff;
 }
 
 span.form-title {
@@ -407,12 +418,13 @@ label{
     background-repeat: no-repeat;
     background-image: url(/assets/images/Backgrounds/Angled.png);
     height: 1029px;
-    height: 1029px;
+    padding-right: 135px;
+    padding-left: 135px;
+    padding-top: 120px;
 }
 
 .preview-content{
     justify-content: space-between;
-    padding-top: 120px;
 }
 
 .preview-title {
@@ -447,11 +459,7 @@ label{
 
 .plan-section{
     background: rgba(245, 241, 255, 1);
-
-}
-
-.plan-content{
-    padding-top: 80px;
+    padding: 80px 135px;
 }
 
 .plan-heading{
@@ -479,7 +487,6 @@ label{
 .plan-card{
     border: 1px solid #ADADAD;
     border-radius: 16px;
-    margin-bottom: 80px;
     background-color: rgba(255, 255, 255, 1);
     cursor: pointer;
 }
@@ -550,6 +557,8 @@ label{
     height: 450px;
     width: 100%;
     background: linear-gradient(178deg,rgba(245, 241, 255, 1) 10%,rgba(27, 225, 175, 1) 11%);
+    padding-left: 135px;
+    padding-right: 135px;
 }
 
 .contact-info{
