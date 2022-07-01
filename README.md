@@ -2,13 +2,12 @@
 
 ## Overview
 
-- This document provides the requirement for HTML CSS practice two
+- This document provides the requirement for HTML CSS practice one
 - Design: [Figma](https://www.figma.com/file/zevqdbURmAQFqIHuPhcEBw/Landing-page-template?node-id=0%3A1)
 
 ## Technical
 
 - HTML5 / CSS3
-- Parcel
 
 ## Timeline
 
@@ -42,12 +41,11 @@
 
 ## How to run the project
 
-*Step one:* Clone the code folder from gitlab to your device
+*Step one:* Clone the code folder from git to your device
 
 - Choose a path to save that file -> At that path open the command window
 - Run command
   > git clone https://github.com/khoishpy123/Practice1.git
 
-**Step two:** Run project
-
-- Hold ctrl and click on the successfully created localhost link to view the website
+**Step two:** install live sever
+run live sever in your project
