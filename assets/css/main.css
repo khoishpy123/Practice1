@@ -94,11 +94,6 @@ html {
     /* background: linear-gradient(357deg,rgba(255, 255, 255, 1) 45%,rgba(27, 225, 175, 1) 46%); */
 }
 
-.navbar{
-    width: 1440px;
-    margin: 0 auto;
-}
-
 .header__navbar{
     display: flex;
     align-items: center;
@@ -519,8 +514,7 @@ label{
     color: rgba(27, 225, 175, 1);
 }
 
-.card-price {
-    
+.card-price { 
     margin-bottom: 8px;
     font-weight: 500;
 }
@@ -637,4 +631,9 @@ label{
 
 .about-us-link:hover {
     opacity: 0.6;
+}
+
+input:focus{
+    outline: none;
+    background: #f5f5f5;
 }
