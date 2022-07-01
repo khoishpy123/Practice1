@@ -48,4 +48,4 @@
   > git clone https://github.com/khoishpy123/Practice1.git
 
 **Step two:** install live sever
-run live sever in your project
+- run live sever in your project
