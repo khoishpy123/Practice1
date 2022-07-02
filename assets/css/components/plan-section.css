@@ -130,3 +130,19 @@
 .card-item4 > .card-price-save{
     color: #7C4DFF;
 }
+
+.card-item1 > .card-btn{
+    background-color: #ADADAD;
+}
+
+.card-item2 > .card-btn{
+    background-color: #858585;
+}
+
+.card-item3 > .card-btn{
+    background-color: #706f6f;
+}
+
+.card-item4 > .card-btn{
+    background-color: #5C5C5C;
+}
