@@ -1,0 +1,10 @@
+* {
+    box-sizing: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-family: 'Objectivity', sans-serif;
+    box-sizing: border-box;
+}

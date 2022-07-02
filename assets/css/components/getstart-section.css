@@ -1,0 +1,146 @@
+.getstart-section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.form-start {
+    width: 350px;
+    display: grid;
+    border: 1px solid rgba(255, 255, 255, 1);
+    filter: drop-shadow(0px 12px 12px rgba(28, 65, 84, 0.1)) drop-shadow(0px 24px 24px rgba(28, 65, 84, 0.08)) drop-shadow(0px 64px 48px rgba(28, 65, 84, 0.08)) drop-shadow(0px 64px 64px rgba(28, 65, 84, 0.04));
+    background-color: #fff;
+}
+
+span.form-title {
+    font-size: 24px;
+    color: #000;
+    line-height: 36px;
+    text-align: left;
+    font-weight: 600;
+    margin-top: -17px;
+    letter-spacing: -0.5px;
+}
+
+.form-detail {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    text-align: initial;
+    margin-top: -4px;
+    letter-spacing: 0.25px;
+}
+
+.form-input{
+    display: grid;
+    margin-top: 2px;
+}
+
+.form-name{
+    background-image: url(/assets/images/icon/user1.png);
+    background-repeat: no-repeat;
+    background-position: 274px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(173 173 173 / 60%);
+    border-radius: 5px;
+    padding: 3px 16px;
+    letter-spacing: -0.25px;
+}
+
+.form-email{
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/icon/at-sign.png);
+    background-position: 274px;
+    border: 1px solid rgb(173 173 173 / 60%);
+    border-radius: 5px;
+    padding: 3px 16px;
+    letter-spacing: -0.25px;
+}
+
+.form-checkbox{
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 24px;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+label{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: initial;
+    margin-left: 10px;
+    letter-spacing: 0.25px;
+}
+
+.form-btn {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background: rgba(124, 77, 255, 1);
+    color: #fff;
+    border: 1px solid rgba(124, 77, 255, 1);
+    border-radius: 5px;
+    letter-spacing: -0.25px;
+    padding: 5px;
+    cursor: pointer;
+    background-image: url(/assets/images/icon/arrow-right.png);
+    background-repeat: no-repeat;
+    background-position: 250px;
+    font-weight: 600;
+}
+
+.form-btn:hover {
+    opacity: 0.3;
+    color: var(--black-color);
+}
+
+.getstart-infomation {
+    width: 770px;
+    margin-left: 50px;
+}
+
+.getstart-title{
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 8px;
+    text-align: left;
+    letter-spacing: -2.25px;
+    margin-top: -17px;
+    font-weight: 600;
+}
+
+.getstart-list{
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 35px 45px ;
+}
+
+.detail-title {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+}
+
+.detail-thumb {
+    text-align: initial;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    color: rgba(92, 92, 92, 1);
+}
+
+.getstart-description {
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(133, 133, 133, 1);
+    text-align: left;
+    letter-spacing: -1.25px;
+    font-weight: 400;
+}

@@ -1,0 +1,47 @@
+.preview-section{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/Backgrounds/Angled.png);
+    height: 1029px;
+    padding-right: 135px;
+    padding-left: 135px;
+    padding-top: 120px;
+}
+
+.preview-content{
+    justify-content: space-between;
+}
+
+.preview-title {
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 600;
+}
+
+.preview-description {
+    font-size: 32px;
+    line-height: 48px;
+    opacity: 0.6;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.apple-app {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.web-app {
+    cursor: pointer;
+}
+
+.apple-app:hover ,
+.web-app:hover {
+    opacity: 0.6;
+}
+
+button.app-btn {
+    border: none;
+}

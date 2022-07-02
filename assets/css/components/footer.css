@@ -1,0 +1,103 @@
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer{
+    height: 450px;
+    width: 1440px;
+    margin: 0 auto;
+    background: linear-gradient(178deg,rgba(245, 241, 255, 1) 10%,rgba(27, 225, 175, 1) 11%);
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.contact-info{
+    text-align: left;
+}
+
+.contact-title{
+    padding-top: 120px;
+}
+
+.social-section{
+    margin-top: 10px;
+    margin-bottom: 36px;
+    display: flex;
+    list-style: none;
+}
+
+.social-link{
+    text-decoration: none;
+}
+
+.social-button{
+    background-color: var(--white-color);
+    border-radius: 20px;
+    margin-right: 37px;
+}
+
+.social-button:hover {
+    opacity: 0.6;
+}
+
+.info{
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 16px;
+    margin-bottom: 80px;
+    list-style: none;
+}
+
+.contanct-sub-title{
+    margin-top: 44px;
+    margin-bottom: 16px;
+}
+
+.col-7{
+    width: 415px;
+    height: 64px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    padding-left: 16px;
+}
+
+.contanct-address{
+    color: rgba(124, 77, 255, 1);
+    text-decoration: none;
+}
+
+.contact-more-detail{
+    margin-top: 16px;
+}
+
+.contact-subscribe-btn{
+    width: 170px;
+    margin-left: -5px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(51, 51, 51, 1);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.contact-subscribe-btn:hover {
+    background-color: #7C4DFF;
+    color: var(--black-color);
+}
+
+.info-link {
+    color: #333333;
+    text-decoration: none;
+}
+
+.info-link:hover {
+    opacity: 0.6;
+}
+
+input:focus{
+    outline: none;
+    background: #f5f5f5;
+}

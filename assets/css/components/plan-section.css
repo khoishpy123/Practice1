@@ -1,0 +1,132 @@
+.plan-section{
+    background: rgba(245, 241, 255, 1);
+    padding: 80px 135px;
+}
+
+.plan-heading{
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.plan-description{
+    font-size: 32px;
+    line-height: 48px;
+    text-align: left;
+    opacity: 0.6;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.cards-list{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+
+.card-item1,
+.card-item2,
+.card-item3,
+.card-item4{
+    border-radius: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card-item1{
+    border: 1px solid #C2C2C2;
+}
+
+.card-item2{
+    border: 1px solid #ADADAD;
+}
+
+.card-item3{
+    border: 1px solid #8f8f8f;
+}
+
+.card-item4{
+    background-color: #fff;
+    filter: drop-shadow(0px 12px 12px rgba(28, 65, 84, 0.1)) drop-shadow(0px 24px 24px rgba(28, 65, 84, 0.08)) drop-shadow(0px 64px 48px rgba(28, 65, 84, 0.08)) drop-shadow(0px 64px 64px rgba(28, 65, 84, 0.04));
+}
+
+.card-hover:hover{
+    background-color: #7C4DFF;
+}
+
+.card-hover:hover > .card-level{
+    color: #1BE1AF;
+}
+
+.card-hover:hover > .card-price, 
+.card-hover:hover > .card-detail,
+.card-hover:hover > .card-time {
+    color: var(--white-color);
+}
+
+.card-hover:hover> .card-btn{
+    color: #333333;
+    background-color: var(--white-color);
+    font-weight: 600;
+}
+
+.card-level {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.card-price { 
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #5C5C5C; 
+}
+
+.card-time {
+    margin-bottom: 20px;
+    color:#5C5C5C;
+}
+
+.card-price-save {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: rgba(27, 225, 175, 1);
+}
+
+.card-detail {
+    margin-bottom: 40px;
+    color: #333333;
+}
+
+.card-btn {
+    width: 83%;
+    margin-bottom: 24px;
+    text-align: center;
+    padding: 10px 0px;
+    color: var(--white-color);
+    background-color: #858585;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-item1 > .card-level{
+    color: #C2C2C2;
+}
+
+.card-item2 > .card-level{
+    color: #ADADAD;
+}
+
+.card-item3 > .card-level{
+    color: #8f8f8f;
+}
+
+.card-item4 > .card-level{
+    color: #000000;
+}
+
+.card-item4 > .card-price-save{
+    color: #7C4DFF;
+}
