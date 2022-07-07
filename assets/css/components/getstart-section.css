@@ -1,94 +1,94 @@
 .getstart-section{
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
 }
 
 .form-start {
-    width: 350px;
+    width: 35rem;
     display: grid;
-    border: 1px solid rgba(255, 255, 255, 1);
-    filter: drop-shadow(0px 12px 12px rgba(28, 65, 84, 0.1)) drop-shadow(0px 24px 24px rgba(28, 65, 84, 0.08)) drop-shadow(0px 64px 48px rgba(28, 65, 84, 0.08)) drop-shadow(0px 64px 64px rgba(28, 65, 84, 0.04));
+    border: 0.1rem solid rgba(255, 255, 255, 1);
+    filter: drop-shadow(0rem 1.2rem 1.2rem rgba(28, 65, 84, 0.1)) drop-shadow(0rem 2.4rem 2.4rem rgba(28, 65, 84, 0.08)) drop-shadow(0rem 6.4rem 4.8rem rgba(28, 65, 84, 0.08)) drop-shadow(0rem 6.4rem 6.4rem rgba(28, 65, 84, 0.04));
     background-color: #fff;
 }
 
-span.form-title {
-    font-size: 24px;
+.form-title {
+    font-size: 2.4rem;
     color: #000;
-    line-height: 36px;
+    line-height: 3.6rem;
     text-align: left;
     font-weight: 600;
-    margin-top: -17px;
-    letter-spacing: -0.5px;
+    margin-top: -1.7rem;
+    letter-spacing: -0.05rem;
 }
 
 .form-detail {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
     color: #000;
     text-align: initial;
-    margin-top: -4px;
-    letter-spacing: 0.25px;
+    margin-top: -0.4rem;
+    letter-spacing: 0.025rem;
 }
 
 .form-input{
     display: grid;
-    margin-top: 2px;
+    margin-top: 0.2rem;
 }
 
 .form-name{
     background-image: url(/assets/images/icon/user1.png);
     background-repeat: no-repeat;
-    background-position: 274px;
-    margin-bottom: 16px;
-    border: 1px solid rgb(173 173 173 / 60%);
-    border-radius: 5px;
-    padding: 3px 16px;
-    letter-spacing: -0.25px;
+    background-position: 27.4rem;
+    margin-bottom: 1.6rem;
+    border: 0.1rem solid rgb(173 173 173 / 60%);
+    border-radius: 0.5rem;
+    padding: 0.3rem 1.6rem;
+    letter-spacing: -0.025rem;
 }
 
 .form-email{
     background-repeat: no-repeat;
     background-image: url(/assets/images/icon/at-sign.png);
-    background-position: 274px;
-    border: 1px solid rgb(173 173 173 / 60%);
-    border-radius: 5px;
-    padding: 3px 16px;
-    letter-spacing: -0.25px;
+    background-position: 27.4rem;
+    border: 0.1rem solid rgb(173 173 173 / 60%);
+    border-radius: 0.5rem;
+    padding: 0.3rem 1.6rem;
+    letter-spacing: -0.025rem;
 }
 
 .form-checkbox{
     align-items: center;
-    margin-top: 55px;
-    margin-left: 24px;
+    margin-top: 5.5rem;
+    margin-left: 2.4rem;
 }
 
 input[type="checkbox"] {
-    width: 25px;
-    height: 25px;
+    width:2.5rem;
+    height:2.5rem;
     cursor: pointer;
 }
 
 label{
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
     text-align: initial;
-    margin-left: 10px;
-    letter-spacing: 0.25px;
+    margin-left: 1rem;
+    letter-spacing: 0.025rem;
 }
 
 .form-btn {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
     background: rgba(124, 77, 255, 1);
     color: #fff;
-    border: 1px solid rgba(124, 77, 255, 1);
-    border-radius: 5px;
-    letter-spacing: -0.25px;
-    padding: 5px;
+    border: 0.1rem solid rgba(124, 77, 255, 1);
+    border-radius: 0.5rem;
+    letter-spacing: -0.025rem;
+    padding: 0.5rem;
     cursor: pointer;
     background-image: url(/assets/images/icon/arrow-right.png);
     background-repeat: no-repeat;
-    background-position: 250px;
+    background-position: 25rem;
     font-weight: 600;
 }
 
@@ -98,49 +98,143 @@ label{
 }
 
 .getstart-infomation {
-    width: 770px;
-    margin-left: 50px;
+    width: 77rem;
+    margin-left: 5rem;
 }
 
 .getstart-title{
-    font-size: 64px;
-    line-height: 75px;
-    margin-bottom: 8px;
+    font-size: 6.4rem;
+    line-height: 7.5rem;
+    margin-bottom: 0.8rem;
     text-align: left;
-    letter-spacing: -2.25px;
-    margin-top: -17px;
+    letter-spacing: -0.225rem;
+    margin-top: -1.7rem;
     font-weight: 600;
 }
 
 .getstart-list{
-    margin-top: 55px;
+    margin-top: 5.5rem;
     display: grid;
     grid-template-columns: auto auto;
-    gap: 35px 45px ;
+    gap: 3.5rem 4.5rem ;
 }
 
 .detail-title {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
     font-weight: 600;
     text-align: left;
-    margin-bottom: 16px;
-    letter-spacing: -0.5px;
+    margin-bottom: 1.6rem;
+    letter-spacing: -0.05rem;
 }
 
 .detail-thumb {
     text-align: initial;
-    font-size: 18px;
-    line-height: 32px;
-    letter-spacing: -0.25px;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    letter-spacing: -0.025rem;
     color: rgba(92, 92, 92, 1);
 }
 
 .getstart-description {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
     color: rgba(133, 133, 133, 1);
     text-align: left;
-    letter-spacing: -1.25px;
+    letter-spacing: -0.125rem;
     font-weight: 400;
+}
+
+/* tablet: width >= 768px  & Mobile: wisth < 1024px*/
+@media only screen and (min-width: 48em) and (max-width:64em) {
+    .getstart-section{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .form-start{
+        margin: 0 auto;
+        margin-bottom: 10rem;
+    }
+
+    .form-title{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .form-detail{
+        margin-bottom: 2rem;
+    }
+
+    .getstart-infomation{
+        margin: 0 auto;
+    }
+
+    .getstart-title{
+        text-align: center;
+    }
+
+    .getstart-description{
+        text-align: center;
+    }
+
+    .detail-title{
+        text-align: center;
+    }
+
+    .detail-thumb{
+        text-align: center;
+    }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.9375em) {
+    .getstart-section{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .detail-title{
+        color: #674eee;
+    }
+
+    .form-start{
+        margin: 0 auto;
+        margin-bottom: 10rem;
+    }
+
+    .form-title{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: #67d652;
+    }
+
+    .form-detail{
+        margin-bottom: 2rem;
+    }
+
+    .form-btn{
+        background: rgb(98 224 90);
+        border: 0.1rem solid rgb(98 224 90);
+        color: rgba(124, 77, 255, 1);
+        font-weight: 600;
+    }
+
+    .getstart-list{
+        grid-template-columns: auto;
+    }
+
+    .getstart-infomation{
+        margin: 0 auto;
+        padding: 0 5rem;
+        width: 100%;
+    }
+
+    .getstart-title{
+        text-align: center;
+    }
+
+    .getstart-description{
+        display: none;
+    }
 }

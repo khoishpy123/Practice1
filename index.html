@@ -25,40 +25,90 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <nav class="header-navbar m-135">
+        <nav class="header-navbar">
             <div class="logo">
                 <img src="./assets/images/boxcube.png" alt="">
             </div>
-            <ul class="header-navbar-list flex">
-                <li class="header-navbar-item">
-                    <a href="">
-                        <img src="./assets/images/Popular/home.png" alt="" class="header-icon-home">
-                        <a href="" class="header-navbar-item-link font-18">Home</a>
-                    </a>
-                </li>
-                <li class="header-navbar-item">
-                    <a href="">
-                        <img src="./assets/images/Popular/inbox.png" alt="" class="header-icon">
-                        <a href="" class="header-navbar-item-link font-18">About</a>
-                    </a>
-                </li>
-                <li class="header-navbar-item">
-                    <a href="">
-                        <img src="./assets/images/Commerce/briefcase.png" alt="" class="header-icon">
-                        <a href="" class="header-navbar-item-link font-18">Works</a>
-                    </a>
-                </li>
-                <li class="header-navbar-item">
-                    <a href="">
-                        <img src="./assets/images/Messages/mail.png" alt="" class="header-icon">
-                        <a href="" class="header-navbar-item-link font-18">Contacts</a>
-                    </a>
-                </li>
-            </ul>
+            <div class="logo-infomation">
+                <h1>YourApplication</h1>
+                <p>Delivering top services</p>
+            </div>
+            <nav>
+                <ul class="header-navbar-list flex">
+                    <li class="header-navbar-item">
+                        <a href="">
+                            <img src="./assets/images/Popular/home.png" alt="" class="header-icon-home">
+                            <a href="" class="header-navbar-item-link font-18">Home</a>
+                        </a>
+                    </li>
+                    <li class="header-navbar-item">
+                        <a href="">
+                            <img src="./assets/images/Popular/inbox.png" alt="" class="header-icon">
+                            <a href="" class="header-navbar-item-link font-18">About</a>
+                        </a>
+                    </li>
+                    <li class="header-navbar-item">
+                        <a href="">
+                            <img src="./assets/images/Commerce/briefcase.png" alt="" class="header-icon">
+                            <a href="" class="header-navbar-item-link font-18">Works</a>
+                        </a>
+                    </li>
+                    <li class="header-navbar-item">
+                        <a href="">
+                            <img src="./assets/images/Messages/mail.png" alt="" class="header-icon">
+                            <a href="" class="header-navbar-item-link font-18">Contacts</a>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
             <button class="login-btn">
                 Login
                 <img src="./assets/images/icon/user.png" alt="" class="login-img">
             </button>
+            <label for="nav-mobile-input" class="nav-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                        d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" />
+                </svg>
+            </label>
+            
+            <input type="checkbox" name="" id="nav-mobile-input" class="nav-input" >
+
+            <!-- phần overlay của button close -->
+            <label for="nav-mobile-input" class="nav-overlay"></label>
+
+            <nav class="nav-mobile">
+                <label for="nav-mobile-input" class="close-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+                    </svg>
+                </label>
+                <ul class="nav-mobile-list">
+                    <li class="nav-mobile-item">
+                        <a href="">
+                            <a href="" class="nav-mobile-item-link font-18">Home</a>
+                        </a>
+                    </li>
+                    <li class="nav-mobile-item">
+                        <a href="">
+                            <a href="" class="nav-mobile-item-link font-18">About</a>
+                        </a>
+                    </li>
+                    <li class="nav-mobile-item">
+                        <a href="">
+                            <a href="" class="nav-mobile-item-link font-18">Works</a>
+                        </a>
+                    </li>
+                    <li class="nav-mobile-item">
+                        <a href="">
+                            <a href="" class="nav-mobile-item-link font-18">Contacts</a>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </nav>
     </header>
 
@@ -67,7 +117,8 @@
         <!-- Banner section -->
         <section class="banner-section flex">
             <div class=" banner-img w-50">
-                <img src="./assets/images/Desktop&Mobile.png" alt="" class="header-banner-img">
+                <img src="assets/images/banner-img/ImageSlack@2x.png" alt="" class="slack-img">
+                <!-- <img src="assets/images/banner-img/Imagemob-app.png" alt="" class="emob-img"> -->
             </div>
             <div class=" banner-content w-50">
                 <h2 class="banner-title">Timesaving <br> Figma system</h2>
@@ -209,58 +260,62 @@
     <!-- Footer -->
     <footer class="footer flex">
         <div class="contact-info w-50">
-            <p class="contact-title font-12">FOLLOW US</p>
-            <ul class="social-section">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank" class="social-link">
-                        <img src="./assets/images/Social/facebook.png" alt="" class="social-button">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/feed/" target="_blank" class="social-link">
-                        <img src="./assets/images/Social/linkedin.png" alt="" class="social-button">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://slack.com/" target="_blank" class="social-link">
-                        <img src="./assets/images/Social/slack.png" alt="" class="social-button">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/?lang=vi" target="_blank" class="social-link">
-                        <img src="./assets/images/Social/twitter.png" alt="" class="social-button">
-                    </a>
-                </li>
-            </ul>
-            <p class="font-12">INFORMATION</p>
-            <ul class="info">
-                <li>
-                    <a href="" class="info-link font-14">About Fapster app</a>
-                </li>
-                <li>
-                    <a href="" class="info-link font-14">Shipping / Returns</a>
-                </li>
-                <li>
-                    <a href="" class="info-link font-14">We are hiring!</a>
-                </li>
-                <li>
-                    <a href="" class="info-link font-14">Get in Touch</a>
-                </li>
-                <li>
-                    <a href="" class="info-link font-14">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="" class="info-link font-14">Resources</a>
-                </li>
-                <li>
-                    <a href="" class="info-link font-14">Things We Like</a>
-                </li>
-                <li>
-                    <a href="" class="info-link font-14">Terms of Service</a>
-                </li>
-            </ul>
+            <div class="follow-section">
+                <p class="contact-title font-12">FOLLOW US</p>
+                <ul class="social-section">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                            <img src="./assets/images/Social/facebook.png" alt="" class="social-button">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/feed/" target="_blank" class="social-link">
+                            <img src="./assets/images/Social/linkedin.png" alt="" class="social-button">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://slack.com/" target="_blank" class="social-link">
+                            <img src="./assets/images/Social/slack.png" alt="" class="social-button">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/?lang=vi" target="_blank" class="social-link">
+                            <img src="./assets/images/Social/twitter.png" alt="" class="social-button">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="infomation-section">
+                <h2 class="heading-info font-12">INFORMATION</h2>
+                <ul class="info">
+                    <li>
+                        <a href="" class="info-link font-14">About Fapster app</a>
+                    </li>
+                    <li>
+                        <a href="" class="info-link font-14">Shipping / Returns</a>
+                    </li>
+                    <li>
+                        <a href="" class="info-link font-14">We are hiring!</a>
+                    </li>
+                    <li>
+                        <a href="" class="info-link font-14">Get in Touch</a>
+                    </li>
+                    <li>
+                        <a href="" class="info-link font-14">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="" class="info-link font-14">Resources</a>
+                    </li>
+                    <li>
+                        <a href="" class="info-link font-14">Things We Like</a>
+                    </li>
+                    <li>
+                        <a href="" class="info-link font-14">Terms of Service</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="contact-form">
+        <div class="contact-form w-50">
             <p class="contact-title font-12">DROP US A LINE</p>
             <a href="" class="contanct-address font-32">hello@fapsterapp.com</a>
             <p class="contanct-sub-title font-12">KEEP IN TOUCH</p>

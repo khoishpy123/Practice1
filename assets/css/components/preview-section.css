@@ -2,10 +2,10 @@
     width: 100%;
     background-repeat: no-repeat;
     background-image: url(/assets/images/Backgrounds/Angled.png);
-    height: 1029px;
-    padding-right: 135px;
-    padding-left: 135px;
-    padding-top: 120px;
+    height: 102.9rem;
+    padding-right: 13.5rem;
+    padding-left: 13.5rem;
+    padding-top: 12rem;
 }
 
 .preview-content{
@@ -13,23 +13,23 @@
 }
 
 .preview-title {
-    font-size: 64px;
-    line-height: 75px;
+    font-size: 6.4rem;
+    line-height: 7.5rem;
     font-weight: 600;
 }
 
 .preview-description {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
     opacity: 0.6;
     text-align: left;
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
     font-weight: 500;
 }
 
 .apple-app {
-    margin-right: 20px;
+    margin-right: 2rem;
     cursor: pointer;
 }
 
@@ -44,4 +44,51 @@
 
 button.app-btn {
     border: none;
+}
+
+.windown-img{
+    width: 100%;
+}
+
+/* tablet: width >= 768px  & Mobile: wisth < 1024px*/
+@media only screen and (min-width: 48em) and (max-width:64em) {
+    .preview-content{
+        flex-direction: column;
+    }
+
+    .preview-section{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .preview-title{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .preview-description{
+        text-align: center;
+    }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 48em) {
+    .preview-content{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .preview-section{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .preview-title{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .preview-description{
+        display: none;
+    }
 }
