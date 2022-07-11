@@ -146,4 +146,14 @@ form.form-subscribe {
     .emob-img{
         display: none;
     }
+
+    .col-6{
+        width: 65%;
+        height: 8.4rem;
+    }
+ 
+     .subscribe-btn{
+         width: 35%;
+         height: 8.4rem;
+    }
 }

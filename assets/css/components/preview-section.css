@@ -50,6 +50,11 @@ button.app-btn {
     width: 100%;
 }
 
+.title-dercition,
+.title-guide{
+    display: none;
+}
+
 /* tablet: width >= 768px  & Mobile: wisth < 1024px*/
 @media only screen and (min-width: 48em) and (max-width:64em) {
     .preview-content{
@@ -86,9 +91,35 @@ button.app-btn {
     .preview-title{
         text-align: center;
         margin-bottom: 2rem;
+        display: none;
     }
 
     .preview-description{
         display: none;
+    }
+
+    .app-btn{
+        width: 100%;
+    }
+
+    .web-app,
+    .apple-app {
+        margin-right: 0;
+        width: 100%;
+        height: 7rem;
+        margin-bottom: 3rem;
+    }
+
+    .title-dercition,
+    .title-guide{
+        display: block;
+        font-size: 3rem;
+        line-height: 4.5rem;
+        width: 86%;
+        margin-bottom: 3rem;
+    }
+
+    .title-dercition{
+        color: #525eea;
     }
 }
