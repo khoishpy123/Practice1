@@ -187,8 +187,8 @@
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.9375em) {
     .header{
-        background-size: 450%;
-        height: 105rem;
+        background-size: 600%;
+        height: 220vw;
     }
     
     .header-navbar{
@@ -206,7 +206,7 @@
     .logo-infomation {
         padding-left: 1rem;
         display: block;
-        font-size: 2.5rem;
+        font-size: 4.5vw;
     }
 
     .header-navbar-list{

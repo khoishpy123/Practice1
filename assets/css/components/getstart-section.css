@@ -232,13 +232,11 @@ label{
 
     .getstart-title{
         text-align: center;
+        font-size: 14vw;
+        line-height: 14vw;
     }
 
     .getstart-description{
         display: none;
-    }
-
-    .desktop-img{
-        
     }
 }

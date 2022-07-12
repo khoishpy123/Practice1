@@ -105,6 +105,10 @@ form.form-subscribe {
         width: 35%;
         height: 8.4rem;
     }
+
+    .emob-img{
+        display: none;
+    }
 }
 
 /* Mobile: width < 768px */
@@ -132,11 +136,12 @@ form.form-subscribe {
     }
 
     .banner-title{
-        font-size: 8rem;
+        font-size: 14vw;
+        line-height: 15.5vw;
     }
 
-    .form-subscribe{
-        /* width: 100%; */
+    .emob-img{
+        display: none;
     }
 
     .header-banner-img{
@@ -150,10 +155,13 @@ form.form-subscribe {
     .col-6{
         width: 65%;
         height: 8.4rem;
+        font-size: 4vw;
+        background-image: none;
     }
  
      .subscribe-btn{
-         width: 35%;
-         height: 8.4rem;
+        width: 35%;
+        height: 8.4rem;
+        font-size: 4vw;
     }
 }

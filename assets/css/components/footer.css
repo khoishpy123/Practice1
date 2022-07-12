@@ -103,7 +103,6 @@ input:focus{
     outline: none;
     background: #f5f5f5;
 }
-
 /* tablet: width >= 768px  & Mobile: wisth < 1024px*/
 @media only screen and (min-width: 48em) and (max-width:64em) {
     .footer {
@@ -163,6 +162,8 @@ input:focus{
         font-size: 3rem;
     }
 
+
+
     .col-7{
         width: 80%;
     }
@@ -173,7 +174,7 @@ input:focus{
     .footer {
         flex-direction: column;
         padding-top: 10rem;
-        height:80rem;
+        height:90rem;
         padding-left: 0;
         padding-right: 0;
     }
@@ -201,19 +202,19 @@ input:focus{
     }
 
     .social-button{
-        width: 6rem;
-        height: 6rem;
-        border-radius: 3rem;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5rem;
     }
 
     .info{
         display: block;
         list-style: disc;
-        width: 20rem;
+        width: 70%;
     }
 
     .info-link{
-        font-size: 2.4rem;
+        font-size: 4vw;
     }
 
     .info > li{
@@ -228,10 +229,15 @@ input:focus{
 
     .heading-info,
     .contact-title{
-        font-size: 3rem;
+        font-size: 5vw;
     }
 
     .col-7{
         width: 80%;
     }
+
+    .follow-section {
+        padding-left: 1rem;
+    }
+    
 }

@@ -175,4 +175,8 @@
     .plan-description{
         display: none;
     }
+
+    .plan-section{
+        padding: 0;
+    }
 }
