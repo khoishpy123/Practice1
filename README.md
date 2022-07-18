@@ -1,13 +1,13 @@
-# Practice-one
+# Practice-two
 
 ## Overview
 
-- This document provides the requirement for HTML CSS practice one
+- This document provides the requirement for HTML CSS practice two
 - Design: [Figma](https://www.figma.com/file/zevqdbURmAQFqIHuPhcEBw/Landing-page-template?node-id=0%3A1)
 
 ## Technical
 
-- HTML5 / CSS3
+- HTML5 / CSS3 / Grid CSS
 
 ## Timeline
 
@@ -23,9 +23,9 @@
 
 ## Targets
 
-- Understand HTML/CSS properties and use them correctly
-- Slice from Sketch to HTML/CSS
-- Understand the concepts of Flex
+- Apply knowledge to responsive design
+- Used media queries for popular screen size
+- Work fine on Chrome browser latest version
 
 ## REQUIREMENTS
 
