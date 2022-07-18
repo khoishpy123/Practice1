@@ -185,7 +185,7 @@
 }
 
 /* Mobile: width < 768px */
-@media only screen and (max-width: 47.9375em) {
+@media only screen and (max-width: 768px) {
     .header{
         background-size: 600%;
         height: 220vw;
@@ -224,7 +224,7 @@
 }
 
 /* tablet: width >= 768px  & Mobile: wisth < 1024px*/
-@media only screen and (min-width: 48em) and (max-width:64em) {
+@media only screen and (min-width: 768px) and (max-width:1024px) {
     .header{
         background-size: 345%;
         height: 110rem;
