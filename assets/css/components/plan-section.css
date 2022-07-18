@@ -166,6 +166,8 @@
 @media only screen and (max-width: 768px){
     .cards-list{
         grid-template-columns: auto;
+        width: 85%;
+        margin: auto;
     }
     .plan-heading{
         text-align: center;
@@ -176,7 +178,5 @@
         display: none;
     }
 
-    .plan-section{
-        padding: 0;
-    }
+
 }

@@ -166,6 +166,13 @@ label{
         margin-bottom: 2rem;
     }
 
+    .form-name{
+        background-image: none;
+    }
+
+    .form-email{
+        background-image: none;
+    }
     .getstart-infomation{
         margin: 0 auto;
     }
@@ -192,6 +199,7 @@ label{
     .getstart-section{
         flex-direction: column;
         margin: 0 auto;
+        padding-top: 10rem;
     }
 
     .detail-title{
@@ -201,6 +209,7 @@ label{
     .form-start{
         margin: 0 auto;
         margin-bottom: 10rem;
+        width: 85%;
     }
 
     .form-title{
